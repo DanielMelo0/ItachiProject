@@ -22,6 +22,7 @@ const loaderEl  = document.getElementById('loader');
 const loaderFill = document.getElementById('loaderFill');
 const loaderPct  = document.getElementById('loaderPct');
 
+// PreLoad Function
 function load(src, bucket, index) {
   return new Promise(res => {
     const img = new Image();
